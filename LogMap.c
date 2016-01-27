@@ -23,10 +23,13 @@ int main(int argc, char *argv[]){
 	}
 	rstart = strtod(argv[1],NULL);
 	rend = strtod(argv[2],NULL);
-	deltar = strtod(argv[3],NULL);
+	if(rstart > rend){
+		rstart = rend;
+	}
 	if(rend > 4.0){
 		rend = 4.0;
 	}
+	deltar = strtod(argv[3],NULL);
 	
 	double *states = calloc(maxrep,sizeof(double));
 	
