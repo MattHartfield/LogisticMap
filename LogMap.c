@@ -72,7 +72,6 @@ int main(int argc, char *argv[]){
 					*(states + g) = xcurr;
 				}
 			}
-			/* printf("xcurr %lf, g %d, isdone %d\n",xcurr,g,isdone);*/
 			g++;
 			if(g == maxrep){
 				isdone = 1;
