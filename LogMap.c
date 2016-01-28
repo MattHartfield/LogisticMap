@@ -1,3 +1,6 @@
+/* Code to print out bifurcation map of logistic function */
+/* Written by Matthew Hartfield (matthew.hartfield@utoronto.ca) */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
